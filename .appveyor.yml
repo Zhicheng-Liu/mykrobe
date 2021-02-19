@@ -22,8 +22,8 @@ environment:
 
 
 # Cache Cygwin/MSYS files to speed up build
-#cache:
-#    - '%CYG_CACHE%'
+cache:
+    - '%CYG_CACHE%'
 clone_depth: 1
 
 init:
