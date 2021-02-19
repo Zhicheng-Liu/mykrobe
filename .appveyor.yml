@@ -37,7 +37,7 @@ install:
   - '%BASH% -lc "echo $PATH"'
   - '%BASH% -lc "which python3"'
   - '%BASH% -lc "python3 -m pip install -U pip wheel setuptools"'
-  - '%BASH% -lc "ls -alh /usr/lib/python3.8/site-packages"'
+  - '%BASH% -lc "ls -alhR /usr/lib/python3.8/site-packages"'
 #  - '%BASH% -lc "ls -alh /usr/share/python-wheels/"'
   - '%BASH% -lc "cat /usr/lib/python3.8/ensurepip/__init__.py"'
   - '%BASH% -lc "python3 -m ensurepip --upgrade"'
